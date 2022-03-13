@@ -3,7 +3,10 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Max {
-     
+
+    public static void indexOfMax (String[] args) {
+      
+    }
     public static void main (String[] args) {
       
     }
