@@ -11,8 +11,8 @@ public class Guess {
         int randNumber = random.nextInt(100) + 1;
         System.out.print("Type a number: "); 
         int guessNumber = in.nextInt();
-        System.out.printf("Your guess is: %d\n", guessNumber);
-        System.out.printf("The number I was thinking of is: %d", randNumber);
-        System.out.printf(". You were off by: %d", Math.abs (randNumber -guessNumber));
+        System.out.printf("Your guess is: %d \n", guessNumber);
+        System.out.printf(". The number I was thinking of is: %d \n", randNumber);
+        System.out.printf(". You were off by: %d \n", Math.abs (randNumber -guessNumber));
       }
 }
