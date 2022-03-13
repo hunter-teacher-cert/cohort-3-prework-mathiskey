@@ -13,7 +13,8 @@ import java.util.*;
           }
       }
       public static void main(String[] args){
-        System.out.println (isTriangle);
+        System.out.println(isDivisible(4, 4));
+        System.out.println(isTriangle(1,4,5));
         Scanner reader = new Scanner(System.in);
         int m;
         System.out.println("Enter m: ");
